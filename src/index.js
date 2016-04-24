@@ -2,13 +2,34 @@ import data from './data'
 import fs from 'fs'
 import css from 'css'
 
+const clients_supported = [
+  'android',
+  'apple',
+  'gmail',
+  'ios',
+  'outlook',
+  'outlook_web',
+  'outlook_express',
+  'yahoo'
+]
+
+const validator = (property = 'error') => {
+  let validator_info = {}
+  clients_supported.map( client => {
+    validator_info[client] = data[client][property] || {
+      test: "warning",
+      info: "Property not found in data"
+    }
+  })
+  return validator_info
+}
+
 const template = (line = 'error', property = 'error') => {
-  let row = {
-    "line": line,
-    "property": property,
-    "clients": {}
+  return {
+    line,
+    property,
+    clients: validator(property)
   }
-  return row
 }
 
 const mailsupport = (file) => {
@@ -28,7 +49,7 @@ const mailsupport = (file) => {
     prop => template(prop.position.start.line, prop.property)
   )
 
-  return result
+  return JSON.stringify(result)
 
 }
 

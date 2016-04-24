@@ -5,7 +5,5 @@ import mailSupport from '../src/index'
 const mockFileCss = __dirname + '/fixtures.css'
 
 describe('mail-support', () => {
-  it('test', () => {
-    console.log( mailSupport(mockFileCss) )
-  })
+  it('test', () => {})
 })

@@ -4,61 +4,75 @@ Check css support for the emails clients
 
 **Wait stable version (v0.2.0) for install.**
 
+## Clients checked
 
-## Options
-
-- source_type
-  - Type of source
-  - 'file' or 'url'
-  - Default -> 'file'
-
-
-- source
-  - source for test
-  - 'path/to/source'
-  - Default -> empty
+- Android 4 (Gmail)
+- Apple Mail 6.5
+- Gmail (Web)
+- iPhone iOS 7/iPad
+- Outlook 2007/10/13
+- Outlook 03/Express/Mail
+- Outlook.com
+- Yahoo! Mail
 
 
-- clients
-  - filter clients for test
-  - '*', ['gmail', 'ios'],
-  - Default -> '*'
-
-
-- reporter
-  - type of result
-  - 'json', 'tablelog'
-  - Default -> tablelog
-
-
-## Clients
-
-| Client | Option |
-| ------ | ------ |
-| Android 4 (Gmail) | android |
-| Apple Mail 6.5 | apple |
-| Gmail (Web) | gmail |
-| iPhone iOS 7/iPad | ios |
-| Outlook 2007/10/13 | outlook |
-| Outlook 03/Express/Mail | outlook_express |
-| Outlook.com | outlook_web |
-| Yahoo! Mail | yahoo |
-
-
-## example
+## Example
 
 ```js
+
 import mailSupport from 'mail-support'
+const testMailSupport = mailSupport('path-to-css/style.css')
 
-// mailSupport.test( source_type, source_dir, clients, reporter )
+```
 
-mailSupport.test('url', 'demo.com/style.css', '*', 'tablelog')
+## Response
 
-// result
+- ok
+- fail
+- info: support only if ...
+- warning: no css property found
 
+```json
 
-mailSupport.test('file', './style.css', ['gmail', 'ios'], 'tablelog')
-
-// result
+[
+  {
+    "line":2,
+    "property":"background-size",
+    "clients":{
+      "android":{
+        "test":"info",
+        "info":"Image not stretched"
+      },
+      "apple":{
+        "test":"ok",
+        "info":""
+      },
+      "gmail":{
+        "test":"fail",
+        "info":""
+      },
+      "ios":{
+        "test":"ok",
+        "info":""
+      },
+      "outlook":{
+        "test":"fail",
+        "info":""
+      },
+      "outlook_web":{
+        "test":"fail",
+        "info":""
+      },
+      "outlook_express":{
+        "test":"fail",
+        "info":""
+      },
+      "yahoo":{
+        "test":"info",
+        "info":"Image not stretched"
+      }
+    }
+  }
+]
 
 ```
