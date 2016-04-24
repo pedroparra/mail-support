@@ -1,6 +1,6 @@
 {
   "name": "mail-support",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Check css support for the emails clients",
   "main": "dist/index.js",
   "scripts": {

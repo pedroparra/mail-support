@@ -32,7 +32,7 @@ const template = (line = 'error', property = 'error') => {
   }
 }
 
-const mailsupport = (file) => {
+export default file => {
 
   // Read file
   const FILECSS = fs.readFileSync(file).toString();
@@ -52,5 +52,3 @@ const mailsupport = (file) => {
   return result
 
 }
-
-export default mailsupport
