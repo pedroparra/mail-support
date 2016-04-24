@@ -13,9 +13,19 @@
   },
   "keywords": [
     "mail",
-    "support"
+    "support",
+    "test",
+    "cli",
+    "terminal",
+    "marketing",
+    "campaign",
+    "monitor"
   ],
-  "author": "Pedro J. Parra",
+  "author": {
+    "name": "Pedro J. Parra",
+    "email": "pedroparra.correo@gmail.com",
+    "url": "pedrojparra.es"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.7.5",
@@ -28,5 +38,8 @@
   "bugs": {
     "url": "https://github.com/pedroparra/mail-support/issues"
   },
-  "homepage": "https://github.com/pedroparra/mail-support#readme"
+  "homepage": "https://github.com/pedroparra/mail-support#readme",
+  "dependencies": {
+    "css": "^2.2.1"
+  }
 }

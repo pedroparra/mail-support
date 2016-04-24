@@ -1,14 +1,11 @@
 import { expect } from 'chai'
-import fs from 'fs'
-import path from 'path'
-
 import mailSupport from '../src/index'
 
-// Load css
-const mockFileCss = fs.readFileSync(__dirname + '/fixtures.css').toString();
+// Load file
+const mockFileCss = __dirname + '/fixtures.css'
 
 describe('mail-support', () => {
-    it('test', () => {
-      mailSupport.validate()
-    })
+  it('test', () => {
+    console.log( mailSupport(mockFileCss) )
+  })
 })
