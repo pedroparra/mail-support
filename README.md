@@ -34,7 +34,7 @@ Check css support for the emails clients
 ## Clients
 
 | Client | Option |
-| - | - |
+| ------ | ------ |
 | Android 4 (Gmail) | android |
 | Apple Mail 6.5 | apple |
 | Gmail (Web) | gmail |
