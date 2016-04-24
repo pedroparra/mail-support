@@ -1,4 +1,5 @@
 # mail-support
+[![Build Status](https://travis-ci.org/pedroparra/mail-support.svg?branch=master)](https://travis-ci.org/pedroparra/mail-support)
 
 Check css support for the emails clients
 
