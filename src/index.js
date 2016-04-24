@@ -49,7 +49,7 @@ const mailsupport = (file) => {
     prop => template(prop.position.start.line, prop.property)
   )
 
-  return JSON.stringify(result)
+  return result
 
 }
 
