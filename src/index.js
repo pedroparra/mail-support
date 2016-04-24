@@ -1,4 +1,4 @@
-import data from './data'
+import data from '../data'
 import fs from 'fs'
 import css from 'css'
 

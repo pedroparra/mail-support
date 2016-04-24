@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import mailSupport from '../src/index'
+import mailSupport from '../dist/index'
 
 // Load file
 const mockFileCss = __dirname + '/fixtures.css'
