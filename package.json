@@ -1,6 +1,6 @@
 {
   "name": "mail-support",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check css support for the emails clients",
   "main": "dist/index.js",
   "scripts": {
@@ -11,7 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/pedroparra/mail-support.git"
   },
-  "keywords": ["mail", "support"],
+  "keywords": [
+    "mail",
+    "support"
+  ],
   "author": "Pedro J. Parra",
   "license": "MIT",
   "devDependencies": {
