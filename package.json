@@ -1,11 +1,11 @@
 {
   "name": "mail-support",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Check css support for the emails clients",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src/index.js -o dist/index.js",
-    "test": "mocha --ui bdd --watch --compilers js:babel-register",
+    "test": "npm run build && mocha --ui bdd --watch --compilers js:babel-register",
     "test:single": "mocha --ui bdd --compilers js:babel-register"
   },
   "repository": {

@@ -1,9 +1,5 @@
 'use strict';
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
 var _fs = require('fs');
 
 var _fs2 = _interopRequireDefault(_fs);
@@ -86,7 +82,7 @@ var template = function template() {
   };
 };
 
-exports.default = function (file) {
+module.exports = function (file) {
 
   // Read file
   var FILECSS = _fs2.default.readFileSync(file).toString();

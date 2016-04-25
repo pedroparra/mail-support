@@ -53,7 +53,7 @@ const template = (line = 'error', property = 'error') => {
   }
 }
 
-export default file => {
+module.exports = function(file){
 
   // Read file
   const FILECSS = fs.readFileSync(file).toString();
