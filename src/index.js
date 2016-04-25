@@ -1,6 +1,27 @@
-import data from '../data'
 import fs from 'fs'
 import css from 'css'
+
+// Data
+import android from '../data/android.json'
+import apple from '../data/apple.json'
+import gmail from '../data/gmail.json'
+import ios from '../data/ios.json'
+import outlook_express from '../data/outlook_express.json'
+import outlook_web from '../data/outlook_web.json'
+import outlook from '../data/outlook.json'
+import yahoo from '../data/yahoo.json'
+
+
+const data = {
+  android,
+  apple,
+  gmail,
+  ios,
+  outlook_express,
+  outlook_web,
+  outlook,
+  yahoo
+}
 
 const clients_supported = [
   'android',
