@@ -64,7 +64,7 @@
     "info" : ""
   },
   "word-wrap" : {
-    "test" : "ok",
+    "test" : "fail",
     "info" : ""
   },
   "text-fill-color" : {
@@ -100,8 +100,8 @@
     "info" : ""
   },
   "background-size" : {
-    "test" : "ok",
-    "info" : ""
+    "test" : "info",
+    "info" : "image not stretched"
   },
   "opacity" : {
     "test" : "ok",
@@ -112,19 +112,19 @@
     "info" : ""
   },
   "border-color" : {
-    "test" : "ok",
+    "test" : "fail",
     "info" : ""
   },
   "border-image" : {
-    "test" : "ok",
+    "test" : "fail",
     "info" : ""
   },
   "border-radius" : {
-    "test" : "ok",
+    "test" : "fail",
     "info" : ""
   },
   "box-shadow" : {
-    "test" : "ok",
+    "test" : "fail",
     "info" : ""
   },
   "height" : {
@@ -164,8 +164,8 @@
     "info" : ""
   },
   "overflow" : {
-    "test" : "ok",
-    "info" : ""
+    "test" : "info",
+    "info" : "overflow: scroll; does not work"
   },
   "position" : {
     "test" : "ok",

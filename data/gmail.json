@@ -64,15 +64,15 @@
     "info" : ""
   },
   "word-wrap" : {
-    "test" : "ok",
+    "test" : "fail",
     "info" : ""
   },
   "text-fill-color" : {
-    "test" : "ok",
+    "test" : "fail",
     "info" : ""
   },
   "text-fill-stroke" : {
-    "test" : "ok",
+    "test" : "fail",
     "info" : ""
   },
   "color" : {
@@ -80,7 +80,7 @@
     "info" : ""
   },
   "background" : {
-    "test" : "ok",
+    "test" : "fail",
     "info" : ""
   },
   "background-color" : {
@@ -92,7 +92,7 @@
     "info" : ""
   },
   "background-position" : {
-    "test" : "ok",
+    "test" : "fail",
     "info" : ""
   },
   "background-repeat" : {
@@ -100,11 +100,11 @@
     "info" : ""
   },
   "background-size" : {
-    "test" : "ok",
+    "test" : "fail",
     "info" : ""
   },
   "opacity" : {
-    "test" : "ok",
+    "test" : "fail",
     "info" : ""
   },
   "border" : {
@@ -116,7 +116,7 @@
     "info" : ""
   },
   "border-image" : {
-    "test" : "ok",
+    "test" : "fail",
     "info" : ""
   },
   "border-radius" : {
@@ -124,7 +124,7 @@
     "info" : ""
   },
   "box-shadow" : {
-    "test" : "ok",
+    "test" : "fail",
     "info" : ""
   },
   "height" : {
@@ -152,7 +152,7 @@
     "info" : ""
   },
   "display" : {
-    "test" : "ok",
+    "test" : "fail",
     "info" : ""
   },
   "float" : {
@@ -160,23 +160,23 @@
     "info" : ""
   },
   "outline" : {
-    "test" : "ok",
-    "info" : ""
+    "test" : "info",
+    "info" : "Inner and outer border are collapsed"
   },
   "overflow" : {
-    "test" : "ok",
-    "info" : ""
+    "test" : "info",
+    "info" : "overflow: hidden; does not work"
   },
   "position" : {
-    "test" : "ok",
+    "test" : "fail",
     "info" : ""
   },
   "visibility" : {
-    "test" : "ok",
+    "test" : "fail",
     "info" : ""
   },
   "z-index" : {
-    "test" : "ok",
+    "test" : "fail",
     "info" : ""
   },
   "border-collapse" : {
