@@ -1,10 +1,202 @@
 {
+  "font" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "font-family" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "font-style" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "font-variant" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "font-size" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "font-weight" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "letter-spacing" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "line-height" : {
+    "test" : "info",
+    "info" : "line-height on td is ignored, use on p instead."
+  },
+  "text-align" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "text-decoration" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "text-indent" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "text-overflow" : {
+    "test" : "info",
+    "info" : "text-overflow: ellipsis; does not work"
+  },
+  "text-shadow" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "text-transform" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "white-space" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "word-spacing" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "word-wrap" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "text-fill-color" : {
+    "test" : "fail",
+    "info" : ""
+  },
+  "text-fill-stroke" : {
+    "test" : "fail",
+    "info" : ""
+  },
+  "color" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "background" : {
+    "test" : "info",
+    "info" : "Background images not supported"
+  },
+  "background-color" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "background-image" : {
+    "test" : "fail",
+    "info" : ""
+  },
+  "background-position" : {
+    "test" : "fail",
+    "info" : ""
+  },
+  "background-repeat" : {
+    "test" : "fail",
+    "info" : ""
+  },
   "background-size" : {
     "test" : "fail",
     "info" : ""
   },
-  "background-position": {
+  "opacity" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "border" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "border-color" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "border-image" : {
     "test" : "fail",
+    "info" : ""
+  },
+  "border-radius" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "box-shadow" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "height" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "margin" : {
+    "test" : "fail",
+    "info" : ""
+  },
+  "padding" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "width" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "max-width" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "min-width" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "display" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "float" : {
+    "test" : "fail",
+    "info" : ""
+  },
+  "outline" : {
+    "test" : "info",
+    "info" : "Inner and outer border are collapsed"
+  },
+  "overflow" : {
+    "test" : "info",
+    "info" : "overflow: hidden; does not work"
+  },
+  "position" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "visibility" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "z-index" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "border-collapse" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "border-spacing" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "caption-side" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "empty-cells" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "table-layout" : {
+    "test" : "ok",
     "info" : ""
   }
 }

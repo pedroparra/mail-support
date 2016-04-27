@@ -1,9 +1,201 @@
 {
+  "font" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "font-family" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "font-style" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "font-variant" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "font-size" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "font-weight" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "letter-spacing" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "line-height" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "text-align" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "text-decoration" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "text-indent" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "text-overflow" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "text-shadow" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "text-transform" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "white-space" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "word-spacing" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "word-wrap" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "text-fill-color" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "text-fill-stroke" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "color" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "background" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "background-color" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "background-image" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "background-position" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "background-repeat" : {
+    "test" : "ok",
+    "info" : ""
+  },
   "background-size" : {
     "test" : "ok",
     "info" : ""
   },
-  "background-position": {
+  "opacity" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "border" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "border-color" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "border-image" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "border-radius" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "box-shadow" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "height" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "margin" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "padding" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "width" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "max-width" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "min-width" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "display" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "float" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "outline" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "overflow" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "position" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "visibility" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "z-index" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "border-collapse" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "border-spacing" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "caption-side" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "empty-cells" : {
+    "test" : "ok",
+    "info" : ""
+  },
+  "table-layout" : {
     "test" : "ok",
     "info" : ""
   }
