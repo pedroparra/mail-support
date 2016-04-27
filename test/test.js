@@ -18,7 +18,7 @@ describe('mail-support', () => {
     expect(test[0].clients).to.have.ownProperty('android')
     expect(test[0].clients.android).to.have.ownProperty('test')
     expect(test[0].clients.android.test).to.eql('info')
-    expect(test[0].clients.android.info).to.eql('Image not stretched')
+    expect(test[0].clients.android.info).to.eql('image not stretched')
   })
 
 })

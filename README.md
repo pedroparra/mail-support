@@ -42,7 +42,7 @@ const testMailSupport = mailSupport('path-to-css/style.css')
     "clients":{
       "android":{
         "test":"info",
-        "info":"Image not stretched"
+        "info":"image not stretched"
       },
       "apple":{
         "test":"ok",
@@ -70,7 +70,7 @@ const testMailSupport = mailSupport('path-to-css/style.css')
       },
       "yahoo":{
         "test":"info",
-        "info":"Image not stretched"
+        "info":"image not stretched"
       }
     }
   }
